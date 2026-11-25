@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "STPI: spatial transcriptomic positional information"
+version: "1.0.1"
+date-released: "2026-11-25"
+doi: "10.5281/zenodo.24462347"
+license: MIT
+repository-code: "https://github.com/wcs52113140123-pixel/STPI"
+authors:
+  - family-names: Wei
+    given-names: Changsheng
+    affiliation: "Institute of Basic Medical Sciences & School of Basic Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College"
+  - family-names: Ni
+    given-names: Jiayao
+    affiliation: "Institute of Basic Medical Sciences & School of Basic Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College"
+  - family-names: Li
+    given-names: Yanxin
+    affiliation: "Institute of Basic Medical Sciences & School of Basic Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College"

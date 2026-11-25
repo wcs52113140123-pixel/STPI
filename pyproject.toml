@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stpi"
+version = "1.0.1"
+description = "Spatial transcriptomic positional information: recoverability of position from gene expression, in bits, with geometric coordinates, spatial block cross-validation and autocorrelation-preserving nulls"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "threadpoolctl>=3.0",
+]
+
+[project.optional-dependencies]
+io = ["h5py>=3.8"]
+figures = ["matplotlib>=3.8", "seaborn>=0.13", "pillow>=10"]
+test = ["pytest>=7", "h5py>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["public_data: needs the public GEO datasets (set STPI_DATA)"]

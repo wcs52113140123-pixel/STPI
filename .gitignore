@@ -1,0 +1,9 @@
+# generated figures are not distributed
+figures/out/
+# Arial is licensed and not redistributed; see figures/README.md
+assets/fonts/*.TTF
+assets/fonts/*.ttf
+__pycache__/
+*.pyc
+# run logs written by analysis/run_all.py
+analysis/logs/
